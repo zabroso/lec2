@@ -49,4 +49,19 @@ noise = bernoulli.rvs()
 #r = ''.join(...) 
 #print(r)
 
+#5.5 Codigo para probar encoder y decoder
+'''
+bits='000100101'
+r=7
+
+a=encoder(bits,r)
+b=decoder(a,r)
+
+print(bits)
+print(f"Encoder: {a}")
+print(f"Decoder: {b}")
+if (bits==b): print(True)
+'''
+
+
 
